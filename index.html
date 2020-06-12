@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
     <!-- don't forget to link your styles -->
+    <link rel= "stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&amp;display=swap" rel="stylesheet">
   </head>
   <body>
-    <section>
-      <div class="logo">
-        <img src="./images/spotify-logo.png" alt="" style=" height: 48px;">
-      </div>
+    <section id="section1">
       <header>
+          <img src="./images/spotify-logo.png" alt="" >
         <ul>
           <li>Premium</li>
           <li>Discover</li>
@@ -20,7 +20,7 @@
           <li>Download</li>
         </ul>
       </header>
-      <div>
+      <div id="banner">
         <h1>Music for everyone.</h1>
         <p>
           Spotify is now free on mobile, tablet and computer. Listen to the
@@ -29,20 +29,20 @@
       </div>
     </section>
 
-    <section>
+    <section id="section2">
       <h3>What’s on Spotify?</h3>
-      <div>
-        <div>
-          <img src="/images/music-icon.png" alt="">
+      <div id="description">
+        <div class="boxe">
+          <img src="images/music-icon.png" alt="">
           <h4>Millions of Songs</h4>
           <p>There are millions of songs on Spotify</p>
         </div>
-        <div>
+        <div class="boxe">
           <img src="images/high-quality-icon.png" alt="">
           <h4>HD Music</h4>
           <p>Listen to music as if you were listening live</p>
         </div>
-        <div>
+        <div class="boxe">
           <img src="images/devices-icon.png" alt="">
           <h4>Stream Everywhere</h4>
           <p>Stream music on your smartphone, tablet or computer</p>
@@ -50,7 +50,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="section3">
       <div>
         <h3>It’s as yeezy as Kanye West.</h3>
         <div>
@@ -69,7 +69,10 @@
         </div>
       </div>
       <div>
-        <img src="images/spotify-app.jpg" alt="">
+       <img src="./images/spotify-icon-white.png" alt="" id="logo">
+      </div>
+      <div>
+        <img src="images/spotify-app.jpg" alt="" id="screenshot">
       </div>
     </section>  
   </body>
